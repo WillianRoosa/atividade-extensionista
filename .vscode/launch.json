@@ -7,8 +7,8 @@
         {
             "type": "chrome",
             "request": "launch",
-            "name": "Open atividade_extensionista.html",
-            "file": "/Users/willianrosa/Desktop/index.html/index.html"
+            "name": "Open index.html",
+            "url": "https://willianroosa.github.io/atividade-extensionista/"
         }
     ]
 }
