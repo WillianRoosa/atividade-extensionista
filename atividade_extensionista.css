@@ -1,0 +1,80 @@
+body {
+  background-color:darkseagreen;
+  color: azure;
+}
+
+img {
+  margin: 20px;
+  padding-right: 2px;
+  border-radius: 60px;
+  width: 200px;
+  height: 200px;
+  border: 3px solid green;
+}
+
+ul {
+  display: flex;
+  justify-content: space-between;
+  padding-right: 50px;
+}
+
+a {
+  color: azure;
+  text-decoration: none;
+}
+
+.center {
+  text-align: center;
+}
+
+.title {
+  text-align: center;
+}
+
+.box {
+  padding: 0px 50px;
+}
+
+nav a:hover {
+  color: green;
+}
+
+section {
+  text-align: center;
+  padding: 100px;
+}
+
+section a:hover {
+  color: green;
+}
+
+li a {
+  font-size: 27px;
+}
+
+section p {
+  font-size: 20px;
+}
+
+section a {
+  font-size: 20px;
+}
+
+.code{
+  font-size: 1.5rem;
+  margin: 20px 0;
+  color:white;
+  font-weight: bold;
+}
+
+button {
+text-align: center;
+font-size: 1rem;
+padding: 5px 10px;
+cursor: pointer;
+border: none;
+border-radius: 5px;
+background-color:green;
+color: white;
+transition: 1s ease;
+}

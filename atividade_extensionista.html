@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="./img/atividade_extensionista.png">
+    <title>Doação São Benedito</title>
+    <link rel="stylesheet" href="atividade_extensionista.css">
+</head>
+<body>
+    <div class="box">
+         <div class="title">
+            <h1>Doação Recanto São Benedito</h1>
+         </div>
+         <nav>
+             <ul>
+                 <li>
+                    <h2>Selecione opção:</h2>
+                    <a href="doacao_alimentos.html">Doação de Alimentos</a>
+                 </li>
+                 <header>
+                    <div class="center">
+                        <img src="./img/atividade_extensionista.png"></img>
+                    </div>
+                 </header>
+                 <li>
+                    <h2>Selecione opção:</h2>
+                    <a href="doacao_agasalhos.html">Doação de Agasalhos</a>
+                 </li>
+             </ul> 
+         </nav>
+         <main>
+             <section>
+                <h3>Sobre:</h3>
+                 <p>
+                   Sistema desenvolvido com intuito de alcançar mais doadores e fazer a conscientização da importância em ajudar o próximo.
+                 </p>
+                 <h3>Localização:</h3>
+                 <p>Recanto São Benedito, Estr. Mun. Joaquim da Costa, 920, São Bento do Sapucaí - SP, 12490-000</p>
+                 <a href="https://www.google.com/maps/dir//Recanto+S%C3%A3o+Benedito+Estr.+Mun.+Joaquim+da+Costa,+920+S%C3%A3o+Bento+do+Sapuca%C3%AD+-+SP+12490-000/@-22.6770545,-45.7345458,12z/data=!4m8!4m7!1m0!1m5!1m1!1s0x94cc7a6b3d9847cd:0x3d47e58f5235ed2a!2m2!1d-45.7345458!2d-22.6770545?entry=ttu&g_ep=EgoyMDI0MTExOS4yIKXMDSoASAFQAw%3D%3D"target = _blank>Localização Maps</a>
+
+                 <br>
+                 <p> Para finalizar sua doação, gere o código de postagem abaixo nos correios:</p>
+                 <div class="code" id="code"><div>
+                 <button onclick="generateCode()">Gerar Código Postagem</button>
+          
+                 <script>
+                  function generateCode() {
+                      let code = '';
+                      for (let i = 0; i < 10; i++) {
+                          code += Math.floor(Math.random() * 10); // Gera um número aleatório entre 0 e 9
+                      }
+                      document.getElementById("code").textContent = code;
+                     }
+                 </script>
+             </section>
+        </main>
+    </div>
+</body>
+</html>
