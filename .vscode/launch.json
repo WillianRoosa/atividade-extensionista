@@ -8,7 +8,7 @@
             "type": "chrome",
             "request": "launch",
             "name": "Open atividade_extensionista.html",
-            "file": "/Users/willianrosa/Desktop/index.html/atividade_extensionista.html"
+            "file": "/Users/willianrosa/Desktop/index.html/index.html"
         }
     ]
 }
