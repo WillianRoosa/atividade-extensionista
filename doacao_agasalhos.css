@@ -29,11 +29,11 @@ form {
   text-align: left;
 }
 
-.code{
-    font-size: 1.5rem;
-    margin: 20px 0;
-    color:white;
-    font-weight: bold;
+.code {
+  font-size: 1.5rem;
+  margin: 20px 0;
+  color: white;
+  font-weight: bold;
 }
 
 button {
@@ -42,7 +42,7 @@ button {
   cursor: pointer;
   border: none;
   border-radius: 5px;
-  background-color:green;
+  background-color: green;
   color: white;
   transition: 1s ease;
 }
