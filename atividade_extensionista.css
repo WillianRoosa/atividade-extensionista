@@ -1,5 +1,5 @@
 body {
-  background-color:darkseagreen;
+  background-color: darkseagreen;
   color: azure;
 }
 
@@ -60,21 +60,79 @@ section a {
   font-size: 20px;
 }
 
-.code{
+.code {
   font-size: 1.5rem;
   margin: 20px 0;
-  color:white;
+  color: white;
   font-weight: bold;
 }
 
 button {
-text-align: center;
-font-size: 1rem;
-padding: 5px 10px;
-cursor: pointer;
-border: none;
-border-radius: 5px;
-background-color:green;
-color: white;
-transition: 1s ease;
+  text-align: center;
+  font-size: 1rem;
+  padding: 5px 10px;
+  cursor: pointer;
+  border: none;
+  border-radius: 5px;
+  background-color: green;
+  color: white;
+  transition: 1s ease;
+}
+
+@media screen and (max-width: 1020px) {
+  img {
+    margin: 20px;
+    padding-right: 2px;
+    border-radius: 40px;
+    width: 150px;
+    height: 150px;
+  }
+
+  ul {
+    display: flow-root;
+    justify-content: space;
+    padding-right: 5px;
+  }
+
+  .title {
+    text-align: center;
+  }
+
+  .box {
+    padding: 0px 20px;
+  }
+
+  section {
+    text-align: center;
+    padding: 50px;
+  }
+
+  li a {
+    font-size: 20px;
+  }
+
+  section p {
+    font-size: 20px;
+  }
+
+  section a {
+    font-size: 20px;
+  }
+
+  .code {
+    font-size: 1.5rem;
+    margin: 20px 0;
+    font-weight: bold;
+  }
+
+  button {
+    text-align: center;
+    font-size: 1rem;
+    padding: 5px 10px;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    transition: 1s ease;
+  }
+
 }
